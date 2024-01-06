@@ -1,0 +1,35 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+@model PlaceToVisitDto
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Add" asp-controller="PlaceToVisit" method="post">
+    <h1>Place To Visit Add</h1>
+    <label>Category Id:</label>
+    <input type="text" name="categoryId" /> <br />
+    <label>Tour Id:</label>
+    <input type="text" name="tourId" /> <br />
+    <label>Place To Visit Name:</label>
+    <textarea name="placeToVisitName"></textarea> <br />
+    <label>Price:</label>
+    <input type="text" name="price" /> <br />
+    <label>Description:</label>
+    <textarea name="description"></textarea> <br />
+    <label>Type Of Transportation:</label>
+    <textarea name="typeOfTransportation"></textarea>
+    <label>Tour Duration:</label>
+    <input type="text" name="tourDuration" /> <br />
+    <label>Starting Point:</label>
+    <textarea name="startingPoint"></textarea> <br />
+    <label>Period:</label>
+    <input type="text" name="period" /> <br />
+    <label>Image:</label>
+    <textarea name="image"></textarea> <br />
+    
+
+    <input type="submit" value="Add" href="/PlaceToVisit/Index" />
+</form>
+
+

@@ -1,0 +1,217 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Traveller.WebUI
+build_property.RootNamespace = Traveller.WebUI
+build_property.ProjectDir = C:\Users\zeyne\OneDrive\Masaüstü\Travellers2\Traveller.WebUI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zeyne\OneDrive\Masaüstü\Travellers2\Traveller.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Basket/Basket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEJhc2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Category/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Category/GetList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/City/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/City/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/FlightToTicket/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VG9UaWNrZXRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/FlightToTicket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VG9UaWNrZXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/FlightToTicket/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0VG9UaWNrZXRcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Hotel/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Hotel/DomesticHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRG9tZXN0aWNIb3RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Hotel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Hotel/InternationalHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcSW50ZXJuYXRpb25hbEhvdGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Hotel/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/PlaceToVisit/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VUb1Zpc2l0XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/PlaceToVisit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VUb1Zpc2l0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/PlaceToVisit/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VUb1Zpc2l0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Shared/TourError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvdXJFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Ship/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Ship/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Ship/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Ship/Ship.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxTaGlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Ship/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/CulturalTours.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxDdWx0dXJhbFRvdXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/DetailList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEZXRhaWxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/DetailPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEZXRhaWxQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/FlightToTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxGbGlnaHRUb1RpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/HolidayList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxIb2xpZGF5TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/InternationalTours.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxJbnRlcm5hdGlvbmFsVG91cnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Tour/WinterHoliday.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxXaW50ZXJIb2xpZGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Traveller/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsbGVyXEFib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Traveller/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsbGVyXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Traveller/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsbGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/WinterHoliday/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ludGVySG9saWRheVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/WinterHoliday/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ludGVySG9saWRheVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/WinterHoliday/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ludGVySG9saWRheVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/WinterHoliday/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ludGVySG9saWRheVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zeyne/OneDrive/Masaüstü/Travellers2/Traveller.WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mdt4yhtvlu

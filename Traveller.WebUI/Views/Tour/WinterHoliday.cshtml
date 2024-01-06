@@ -1,0 +1,29 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "WinterHoliday";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<TourDto>
+
+<link href="~/css/ticket.css" rel="stylesheet" />
+
+<div class="cards-list">
+
+    @foreach (var item in Model)
+    {
+        <a class="card-header" href="/Tour/HolidayList/@item.Id" style="text-decoration:none">
+            <div class="card 1">
+                <div class="card_image"> <img src="@item.Image" /></div>
+                <div class="card_title title-white">
+                    <p>@item.TourName</p>
+                </div>
+            </div>
+        </a>
+    }
+
+
+
+</div>
+

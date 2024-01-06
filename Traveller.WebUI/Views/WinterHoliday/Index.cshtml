@@ -1,0 +1,74 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+@model List<WinterHolidayDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="/css/category.css" rel="stylesheet" />
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container" action="Index">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+        <table class="table table-striped custab">
+            <thead>
+                <a href="/WinterHoliday/Add" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new winter holidays</a>
+                <tr>
+                    <th>Category Id</th>
+                    <th>Tour Id</th>
+                    <th>Hotel Name</th>
+                    <th>Region</th>
+                    <th>Accommodation Type</th>
+                    <th>Facility Amenities</th>
+                    <th>Date Of Entry</th>
+                    <th>Release Date</th>
+                    <th>Price</th>
+                    <th>Image</th>
+
+                </tr>
+            </thead>
+
+
+
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>@item.CategoryId</td>
+                    <td>@item.TourId</td>
+                    <td>@item.HotelName</td>
+                    <td>@item.Region</td>
+                    <td>@item.AccommodationType</td>
+                    <td>@item.FacilityAmenities</td>
+                    <td>@item.DateOfEntry</td>
+                    <td>@item.ReleaseDate</td>
+                    <td>@item.Price</td>
+                    <td>@item.Image</td>
+
+                    <td class="text-center"><a class='btn btn-info btn-xs' href="/WinterHoliday/Update/@item.Id"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="/WinterHoliday/Delete/@item.Id" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                </tr>
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+    </div>
+</div>
+
+

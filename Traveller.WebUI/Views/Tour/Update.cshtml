@@ -1,0 +1,24 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model TourDto
+
+<form asp-action="Update" asp-controller="Tour" method="post">
+    <h1>Tour Update</h1> <br />
+
+    <label>Category Id:</label>
+    <input type="text" placeholder="Category Id" asp-for="CategoryId" value="@Model.CategoryId" /> <br />
+    <label>Tour Name:</label>
+    <input type="text" placeholder="Tour Name" asp-for="TourName" value="@Model.TourName" /> <br />
+    <label>Image:</label>
+    <input type="text" placeholder="Image" asp-for="Image" value="@Model.Image" /> <br />
+    
+
+    <input type="submit" value="Update" />
+</form>
+
+

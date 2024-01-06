@@ -1,0 +1,19 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model CityDto
+
+<form asp-action="Add" asp-controller="City" method="post">
+    <h1>City Add</h1>
+    <label>City Name:</label>
+    <input type="text" name="cityName" />
+    <input type="submit" value="Add" href="/City/Index" />
+</form>
+
+
+
+

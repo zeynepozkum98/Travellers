@@ -1,0 +1,12 @@
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\bin\Debug\net7.0\Travellers.Core.deps.json
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\bin\Debug\net7.0\Travellers.Core.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\bin\Debug\net7.0\Travellers.Core.pdb
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.csproj.AssemblyReference.cache
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.AssemblyInfoInputs.cache
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.AssemblyInfo.cs
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.csproj.CoreCompileInputs.cache
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\refint\Travellers.Core.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\Travellers.Core.pdb
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Core\obj\Debug\net7.0\ref\Travellers.Core.dll

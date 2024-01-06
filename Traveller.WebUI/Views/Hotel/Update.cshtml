@@ -1,0 +1,35 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model HotelDto
+
+<form asp-action="Update" asp-controller="Hotel" method="post">
+
+    <h1>Hotel Update</h1> <br />
+
+    <label>City Id:</label>
+    <input type="text" placeholder="City Id" asp-for="CityId" value="@Model.CityId" /> <br />
+    <label>Category Id:</label>
+    <input type="text" placeholder="Category Id" asp-for="CategoryId" value="@Model.CategoryId" /> <br />
+    <label>Hotel Name:</label>
+    <textarea placeholder="Hotel Name" asp-for="HotelName" value="@Model.HotelName"></textarea> <br />
+    <label>Image:</label>
+    <input type="text" placeholder="Image" asp-for="Image" value="@Model.Image"/> <br />
+    <label>Description:</label>
+    <textarea placeholder="Description" asp-for="Description" value="@Model.Description"></textarea> <br />
+    <label>Date Of Entry:</label>
+    <input type="date" placeholder="Date Of Entry" asp-for="DateOfEntry" value="@Model.DateOfEntry" /> <br />
+    <label>Release Date:</label>
+    <input type="date" placeholder="Release Date" asp-for="ReleaseDate" value="@Model.ReleaseDate" /> <br />
+    <label>Number Of Rooms:</label>
+    <input type="text" placeholder="Number Of Rooms" asp-for="NumberOfRooms" value="@Model.NumberOfRooms" /> <br>
+    <label>Price:</label>
+    <input type="text" placeholder="Price" asp-for="Price" value="@Model.Price" /> <br>
+
+    <input type="submit" value="Update" href="/PlaceToVisit/Index" />
+</form>
+

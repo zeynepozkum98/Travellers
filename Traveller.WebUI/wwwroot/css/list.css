@@ -1,0 +1,251 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tatil-paket {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .tatil-paket img {
+        width: 100%;
+        max-width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .tatil-paket h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .tatil-paket p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+.siparis-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+    .siparis-button:hover {
+        background-color: #0056b3;
+    }
+
+
+/* Genel stil ayarları */
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.filtreleme {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.filtre {
+    margin-bottom: 20px;
+}
+
+    .filtre h4 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .filtre ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .filtre ul li {
+            margin-bottom: 5px;
+        }
+
+    .filtre input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+.tatil-paketler {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tatil-paket {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+    .tatil-paket img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .tatil-paket h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .tatil-paket p {
+        margin: 5px 0;
+    }
+
+.siparis-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    .siparis-button:hover {
+        background-color: #005;
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.search-form {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.ticket-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.ticket {
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

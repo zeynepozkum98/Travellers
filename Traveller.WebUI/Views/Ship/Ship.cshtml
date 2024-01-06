@@ -1,0 +1,41 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "Ship";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<TourDto>
+
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="~/css/culturalTour.css" rel="stylesheet" />
+
+<section class="hero-section">
+    <div class="card-grid">
+
+
+        @if (Model.Count > 0)
+        {
+            @foreach (var item in Model)
+            {
+                <a class="card" href="/Ship/Detail/@item.Id">
+                    <div class="card__background" style="background-image: url(@item.Image)"></div>
+                    <div class="card__content">
+                        <p class="card__category">Category</p>
+                        <h3 class="card__heading">@item.TourName</h3>
+                    </div>
+                </a>
+            }
+
+        }
+
+        else
+        {
+            <p>No tours found in the selected category.</p>
+        }
+
+
+
+    </div>
+</section>

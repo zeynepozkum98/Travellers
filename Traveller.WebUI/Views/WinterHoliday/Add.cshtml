@@ -1,0 +1,36 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model WinterHolidayDto
+
+<form asp-action="Add" asp-controller="WinterHoliday" method="post">
+    <h1>Winter Holiday Add</h1>
+    <label>Category Id:</label>
+    <input type="text" name="categoryId" /> <br />
+    <label>Tour Id:</label>
+    <input type="text" name="tourId" /> <br />
+    <label>Hotel Name:</label>
+    <textarea name="hotelName"></textarea> <br />
+    <label>Region:</label>
+    <input type="text" name="region" /> <br />
+    <label>Accommodation Type:</label>
+    <textarea name="accommodationType"></textarea> <br />
+    <label>Facility Amenities:</label>
+    <textarea name="facilityAmenities"></textarea> <br />
+    <label>Date Of Entry:</label>
+    <input type="date" name="dateOfEntry" /> <br />
+    <label>Release Date:</label>
+    <input type="date" name="releaseDate" /> <br />
+    <label>Price:</label>
+    <input type="text" name="price" /> <br />
+    <label>Image:</label>
+    <input type="text" name="image" /> <br />
+
+    <input type="submit" value="Add" />
+</form>
+
+

@@ -1,0 +1,34 @@
+﻿@using Travellers.Entities.Concrete;
+@model FlightToTicket
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Add" asp-controller="FlightToTicket" method="post">
+    <h1>Ticket Add</h1>
+    <label>Category Id:</label>
+    <input type="text" name="categoryId" /> <br />
+    <label>Tour Id:</label>
+    <input type="text" name="tourId" /> <br />
+    <label>City Id:</label>
+    <input type="text" name="cityId" /> <br />
+    <label>Flight Company:</label>
+    <input type="text" name="flightCompany" /> <br />
+    <label>Departure Time:</label>
+    <input type="text" name="departureTime" /> <br />
+    <label>Flight Time:</label>
+    <input type="text" name="flightTime" /> <br />
+    <label>Transfer Status:</label>
+    <input type="text" name="transferStatus" /> <br />
+    <label>Luggage Status:</label>
+    <input type="text" name="luggageStatus" /> <br />
+    <label>Price</label>
+    <input type="text" name="price" /> <br />
+
+
+
+    <input type="submit" value="Add" href="/FlightToTicket/Index" />
+</form>
+

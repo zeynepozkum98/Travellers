@@ -1,0 +1,18 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model CategoryDto
+
+<form asp-action="Add" asp-controller="Category" method="post">
+    <h1>Category Add</h1>
+    <label>Category Name:</label>
+    <input type="text" name="categoryname" />
+    <input type="submit" value="Add" href="/Category/Index" />
+</form>
+
+
+

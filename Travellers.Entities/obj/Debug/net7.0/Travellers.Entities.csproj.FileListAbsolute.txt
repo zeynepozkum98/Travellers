@@ -1,0 +1,15 @@
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\bin\Debug\net7.0\Travellers.Entities.deps.json
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\bin\Debug\net7.0\Travellers.Entities.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\bin\Debug\net7.0\Travellers.Entities.pdb
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.AssemblyInfoInputs.cache
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.AssemblyInfo.cs
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.csproj.CoreCompileInputs.cache
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\refint\Travellers.Entities.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.pdb
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\ref\Travellers.Entities.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\bin\Debug\net7.0\Travellers.Core.dll
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\bin\Debug\net7.0\Travellers.Core.pdb
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.csproj.AssemblyReference.cache
+C:\Users\zeyne\OneDrive\Masaüstü\Algoritma\Travellers\Travellers.Entities\obj\Debug\net7.0\Travellers.Entities.csproj.CopyComplete

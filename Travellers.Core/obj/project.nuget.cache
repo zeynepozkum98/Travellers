@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nl7k+/E5ZpT9Jfslqr/7s09A+C/h3OpYgxLO8oXzA7ibKujkubtR3E/eNKa4o+zLFj9EvL6x5ShDRn9rhybOxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zeyne\\OneDrive\\Masaüstü\\Travellers2\\Travellers.Core\\Travellers.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zeyne\\.nuget\\packages\\carbon.data.protection\\1.5.0\\carbon.data.protection.1.5.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\carbon.packaging\\1.50.0\\carbon.packaging.1.50.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\carbon.storage\\3.0.1\\carbon.storage.3.0.1.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\carbon.versioncontrol\\2.6.0\\carbon.versioncontrol.2.6.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\carbon.versioning\\2.0.1\\carbon.versioning.2.0.1.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\github\\1.34.0\\github.1.34.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.12\\microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\zeyne\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

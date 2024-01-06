@@ -1,0 +1,65 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+@model List<ShipDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="/css/category.css" rel="stylesheet" />
+<!------ Include the above in your HEAD tag ---------->
+
+
+
+<div class="container" action="Index">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+        <table class="table table-striped custab">
+            <thead>
+                <a href="/Ship/Add" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new ships</a>
+                <tr>
+                    
+                    <th>Category Id</th>
+                    <th>Tour Id</th>
+                    <th>Ship Company</th>
+                    <th>Ship Name</th>
+                    <th>Region</th>
+                    <th>Tour Duration</th>
+                    <th>Image</th>
+                    <th>Period</th>
+                    <th>Price</th>
+
+                </tr>
+            </thead>
+
+
+
+            @foreach (var item in Model)
+            {
+
+                 <tr>
+                    
+                    <td>@item.CategoryId</td>
+                    <td>@item.TourId</td>
+                    <td>@item.ShipCompany</td>
+                    <td>@item.ShipName</td>
+                    <td>@item.Region</td>
+                    <td>@item.TourDuration</td>
+                    <td>@item.Image</td>
+                    <td>@item.Period</td>
+                    <td>@item.Price</td> 
+
+                    <td class="text-center"><a class='btn btn-info btn-xs' href="/Ship/Update/@item.Id"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="/Ship/Delete/@item.Id" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                </tr>
+            }
+
+        </table>
+
+        </div>
+
+    </div>
+

@@ -1,0 +1,156 @@
+﻿@using Traveller.WebUI.BasketTransaction.BasketModels;
+@model BasketDto
+
+
+@{
+    ViewData["Title"] = "Basket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="~/css/basket.css" rel="stylesheet" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/basket.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<div class="cart-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="main-heading">Basket</div>
+				<div class="table-cart">
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Quantity</th>
+								<th>Total</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							
+								
+
+									@if(User.Identity.IsAuthenticated && Model.BasketItems.Count>0)
+									{
+										
+										@foreach (var item in Model.BasketItems)
+										{
+											<tr>
+											<td>
+												<div class="display-flex align-center">
+													<div class="img-product">
+														<img src="@item.Image" alt="" class="mCS_img_loaded">
+													</div>
+													<div class="name-product">
+
+														@item.Name
+
+													</div>
+													<div class="price">
+														@item.Price.ToString("C")
+													</div>
+												</div>
+											</td>
+
+										<td class="product-count">
+											<form asp-action="Basket" asp-controller="Basket" class="count-inlineflex">
+												<div class="qtyminus"><a href="Basket/DecreaseQuantity/@item.WinterHolidayId">-</a></div>
+												<input type="text" name="quantity" value="1" class="qty">
+												<div class="qtyplus"><a href="/Basket/IncreaseQuantity/@item.WinterHolidayId">+</a></div>
+											</form>
+										</td>
+
+										<td>
+											<div class="total">
+												@(item.Price * (item.Quantity))
+											</div>
+										</td>
+
+										<td>
+											<a href=/Basket/DeleteItem/@item.WinterHolidayId" title="">
+												<img src="https://www.creativefabrica.com/wp-content/uploads/2020/03/09/Delete-glyph-blue-icon-vector-Graphics-3465658-1-580x386.jpg" width="50px" height="40px" alt="" class="mCS_img_loaded" >
+											</a>
+										</td>
+
+										</tr>
+
+									}
+
+								}
+
+								else
+								{
+									<h1 style="color:red;">Sepette ürün bulunmuyor...</h1>
+								}
+
+									
+								
+								
+								
+							
+							
+						</tbody>
+					</table>
+					
+				</div>
+				<!-- /.table-cart -->
+			</div>
+			<!-- /.col-lg-8 -->
+			<div class="col-lg-4">
+				<div class="cart-totals">
+					<h3>Cart Totals</h3>
+
+					<form asp-action="Basket" asp-controller="Basket" method="post" >
+						<table>
+							<tbody>
+
+								@foreach (var item in Model.BasketItems)
+								{
+									<tr>
+										<td>Date Of Entry</td>
+										<td class="subtotal">@item.DateOfEntry.ToShortDateString()</td>
+									</tr>
+
+									<tr class="total-row">
+										<td>Release Date</td>
+										<td class="price-total">@item.ReleaseDate.ToShortDateString()</td>
+									</tr>
+									<tr>
+										<td>@item.AccommodationType</td>
+										
+									</tr>
+									<tr>
+										<td><h6>1 ODA 2,GECE TOPLAM</h6></td>
+										<td>@Model.TotalPrice.ToString("C")</td>
+									</tr>
+								}
+								
+							</tbody>
+						</table>
+						<div class="btn-cart-totals">
+							<a href="/Basket/BasketClean" class="update round-black-btn" title="">Clean Basket</a>
+							<a href="/OrderProcess/OrderProcess" class="checkout round-black-btn" title="">Buy</a>
+						</div>
+						<!-- /.btn-cart-totals -->
+					</form>
+					<!-- /form -->
+				</div>
+				<!-- /.cart-totals -->
+			</div>
+			<!-- /.col-lg-4 -->
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="	sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+

@@ -1,0 +1,70 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+@model List<HotelDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="/css/category.css" rel="stylesheet" />
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container" action="Index">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+        <table class="table table-striped custab">
+            <thead>
+                <a href="/Hotel/Add" class="btn btn-primary btn-xs pull-right"><b>+</b> Add new hotels</a>
+                <tr>
+                    <th>City Id</th>
+                    <th>Category Id</th>
+                    <th>Hotel Name</th>
+                    <th>Image</th>
+                    <th>Description</th>
+                    <th>Date Of Entry</th>
+                    <th>Release Date</th>
+                    <th>Number Of Rooms</th>
+                    <th>Price</th>
+
+                </tr>
+            </thead>
+
+
+
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>@item.CityId</td>
+                    <td>@item.CategoryId</td>
+                    <td>@item.HotelName</td>
+                    <td>@item.Image</td>
+                    <td>@item.Description</td>
+                    <td>@item.DateOfEntry</td>
+                    <td>@item.ReleaseDate</td>
+                    <td>@item.NumberOfRooms</td>
+                    <td>@item.Price</td>
+
+                    <td class="text-center"><a class='btn btn-info btn-xs' href="/Hotel/Update/@item.Id"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="/Hotel/Delete/@item.Id" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                </tr>
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+    </div>
+</div>
+
+

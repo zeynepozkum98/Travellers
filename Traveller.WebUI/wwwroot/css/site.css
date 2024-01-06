@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: #333;
+        padding: 12px 16px;
+        display: block;
+        text-align: left;
+        text-decoration: none;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f0f0f0;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.left-sidebar, .right-sidebar {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+    .search-button:hover {
+        background-color: #0056b3;
+    }
+
+.right-sidebar img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.featured-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+    .featured-item img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .featured-item h3 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .featured-item p {
+        font-size: 14px;
+    }
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding-top:15px;
+
+}
+   
+.footer-content {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+   
+    
+}
+
+    .footer-content ul {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        color:white;
+    }
+
+   .footer-content ul li {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+    }
+
+   .footer-content ul li a {
+    display: inline;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+            
+    }
+
+.travellers {
+    width: 100%;
+    color: white;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.travellers-header {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding: 0 20px;
+}
+.travellers-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.travellers-logo {
+    font-size: 30px;
+    font-weight: bold;
+}

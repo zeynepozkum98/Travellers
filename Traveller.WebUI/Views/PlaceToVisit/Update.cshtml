@@ -1,0 +1,35 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+@model PlaceToVisitDto
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action="Update" asp-controller="PlaceToVisit" method="post">
+    <h1>Place To Visit Update</h1>
+    <label>Category Id:</label>
+    <input type="text" placeholder="Category Id" asp-for="CategoryId" value="@Model.CategoryId" /> <br />
+    <label>Tour Id:</label>
+    <input type="text" placeholder="Tour Id" asp-for="TourId" value="@Model.TourId" /> <br />
+    <label>Place To Visit Name:</label>
+    <textarea placeholder="Place To Visit Name" asp-for="PlaceToVisitName" value="@Model.PlaceToVisitName"></textarea> <br />
+    <label>Price:</label>
+    <input type="text" placeholder="Price" asp-for="Price" value="@Model.Price" /> <br />
+    <label>Description:</label>
+    <textarea placeholder="Description" asp-for="Description" value="@Model.Description"></textarea> <br />
+    <label>Type Of Transportation:</label>
+    <textarea placeholder="Type Of Transportation" asp-for="TypeOfTransportation" value="@Model.TypeOfTransportation"></textarea> <br />
+    <label>Tour Duration:</label>
+    <input type="text" placeholder="Tour Duration" asp-for="TourDuration" value="@Model.TourDuration" /> <br />
+    <label>Starting Point:</label>
+    <textarea placeholder="Starting Point" asp-for="StartingPoint" value="@Model.StartingPoint"></textarea> <br />
+    <label>Period:</label>
+    <input type="text" placeholder="Period" asp-for="Period" value="@Model.Period" /> <br />
+    <label>Image:</label>
+    <textarea placeholder="Image" asp-for="Image" value="@Model.Image"></textarea> <br />
+
+    <input type="submit" value="Update" href="/PlaceToVisit/Index" />
+</form>
+
+
+

@@ -1,0 +1,330 @@
+﻿@using Travellers.Entities.Concrete.Dtos;
+
+@{
+    ViewData["Title"] = "DomesticHotel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<HotelDto>
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/assets/font-awesome/css/font-awesome.css">
+  <link href="/css/otel.css" rel="stylesheet" />
+
+
+<div class="container">
+	<div class="row">
+	<aside class="col-md-3">
+		
+<div class="card">
+	<article class="filter-group">
+
+		<header class="card-header">
+			<a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+				<i class="icon-control fa fa-chevron-down"></i>
+				<h6 class="title">Bölge</h6>
+			</a>
+		</header>
+		<div class="filter-content collapse show" id="collapse_1" style="">
+			<div class="card-body">
+				
+							<div class="filter-content collapse show" id="collapse_2" style="">
+								<div class="card-body">
+									<label class="custom-control custom-checkbox">
+										<input type="checkbox" checked="" class="custom-control-input">
+										<div class="custom-control-label">
+											Sakarya
+											<b class="badge badge-pill badge-light float-right"></b>
+										</div>
+									</label>
+									<label class="custom-control custom-checkbox">
+										<input type="checkbox" checked="" class="custom-control-input">
+										<div class="custom-control-label">
+											Antalya
+											<b class="badge badge-pill badge-light float-right"></b>
+										</div>
+									</label>
+									<label class="custom-control custom-checkbox">
+										<input type="checkbox" checked="" class="custom-control-input">
+										<div class="custom-control-label">
+											İzmir
+											<b class="badge badge-pill badge-light float-right"></b>
+										</div>
+									</label>
+									<label class="custom-control custom-checkbox">
+										<input type="checkbox" checked="" class="custom-control-input" />
+										<div class="custom-control-label">
+											Muğla
+											<b class="badge badge-pill badge-light float-right"></b>
+										</div>
+									</label>
+									
+
+
+			</div> <!-- card-body.// -->
+		</div>
+	</article> <!-- filter-group  .// -->
+	<article class="filter-group">
+		<header class="card-header">
+			<a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+				<i class="icon-control fa fa-chevron-down"></i>
+				<h6 class="title">Konaklama Tipleri </h6>
+			</a>
+		</header>
+		<div class="filter-content collapse show" id="collapse_2" style="">
+			<div class="card-body">
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" checked="" class="custom-control-input">
+				  <div class="custom-control-label"> Her Şey Dahil 
+				  	<b class="badge badge-pill badge-light float-right"></b>  </div>
+				</label>
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" checked="" class="custom-control-input">
+				  <div class="custom-control-label">Ultra Her Şey Dahil 
+				  	<b class="badge badge-pill badge-light float-right"></b>  </div>
+				</label>
+							<label class="custom-control custom-checkbox">
+								<input type="checkbox" checked="" class="custom-control-input">
+								<div class="custom-control-label">
+									Yarım Pansiyon
+									<b class="badge badge-pill badge-light float-right"></b>
+								</div>
+							</label>
+
+							<label class="custom-control custom-checkbox">
+								<input type="checkbox" checked="" class="custom-control-input">
+								<div class="custom-control-label">
+									Oda Kahvaltı
+									<b class="badge badge-pill badge-light float-right"></b>
+								</div>
+							</label>
+
+							<label class="custom-control custom-checkbox">
+								<input type="checkbox" checked="" class="custom-control-input">
+								<div class="custom-control-label">
+									Sadece Oda
+									<b class="badge badge-pill badge-light float-right"></b>
+								</div>
+							</label>
+
+
+
+			</div>
+
+		</article>
+
+				<!-- Filter-->
+
+							<article class="filter-group">
+								<header class="card-header">
+									<a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+										<i class="icon-control fa fa-chevron-down"></i>
+										<h6 class="title">Tesis Olanakları </h6>
+									</a>
+								</header>
+								<div class="filter-content collapse show" id="collapse_2" style="">
+									<div class="card-body">
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												Denize Sıfır
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+										</label>
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												Su Kaydırağı
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+
+
+										</label>
+
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												Aqua Park
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+
+
+										</label>
+
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												Açık Yüzme Havuzu
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+
+
+										</label>
+
+							<label class="custom-control custom-checkbox">
+								<input type="checkbox" checked="" class="custom-control-input">
+								<div class="custom-control-label">
+									Kapalı Yüzme Havuzu
+									<b class="badge badge-pill badge-light float-right"></b>
+								</div>
+
+
+							</label>
+
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												Sauna
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+
+
+										</label>
+
+							<label class="custom-control custom-checkbox">
+								<input type="checkbox" checked="" class="custom-control-input">
+								<div class="custom-control-label">
+									Spor Aktiviteleri
+									<b class="badge badge-pill badge-light float-right"></b>
+								</div>
+
+
+							</label>
+
+
+							<label class="custom-control custom-checkbox">
+								<input type="checkbox" checked="" class="custom-control-input">
+								<div class="custom-control-label">
+									Kablosuz İnternet
+									<b class="badge badge-pill badge-light float-right"></b>
+								</div>
+
+
+							</label>
+
+								<!-- Filter-->
+
+
+										<article class="filter-group">
+											<header class="card-header">
+												<a href="#" data-toggle="collapse" data-target="#collapse_2" aria-expanded="true" class="">
+													<i class="icon-control fa fa-chevron-down"></i>
+													<h6 class="title">Fiyat Aralığı </h6>
+												</a>
+											</header>
+											<div class="filter-content collapse show" id="collapse_2" style="">
+												<div class="card-body">
+													<label class="custom-control custom-checkbox">
+														<input type="checkbox" checked="" class="custom-control-input">
+														<div class="custom-control-label">
+															1760 TL ve altı
+															<b class="badge badge-pill badge-light float-right"></b>
+														</div>
+													</label>
+													<label class="custom-control custom-checkbox">
+														<input type="checkbox" checked="" class="custom-control-input">
+														<div class="custom-control-label">
+															1760 TL - 3320 TL
+															<b class="badge badge-pill badge-light float-right"></b>
+														</div>
+													</label>
+
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												3320 TL - 4880 TL
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+										</label>
+
+
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												4880 TL - 6440 TL
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+										</label>
+
+										<label class="custom-control custom-checkbox">
+											<input type="checkbox" checked="" class="custom-control-input">
+											<div class="custom-control-label">
+												6440 TL ve üzeri
+												<b class="badge badge-pill badge-light float-right"></b>
+											</div>
+										</label>
+
+									
+
+				
+				
+	</div> <!-- card-body.// -->
+		</div>
+	</article> <!-- filter-group .// -->
+
+	
+		<div class="filter-content collapse show" id="collapse_3" style="">
+			
+				<button class="btn btn-block btn-primary">Filterele</button>
+			
+		</div>
+	</article> <!-- filter-group .// -->
+	
+		 <!-- filter-group .// -->
+	
+	 <!-- filter-group .// -->
+</div> <!-- card.// -->
+
+	</aside>
+	<main class="col-md-9">
+
+
+
+<div class="row">
+
+	            @if(Model.Count>0)
+				{
+
+					@foreach (var item in Model)
+					{
+						<div class="col-md-4">
+							<figure class="card card-product-grid">
+								<div class="img-wrap">
+
+									<img src="@item.Image" class="img-fluid">
+
+								</div> <!-- img-wrap.// -->
+								<figcaption class="info-wrap">
+									<div class="fix-height">
+										<a href="#" class="title">@item.HotelName</a>
+										<div class="price-wrap mt-2">
+											<span class="price">@item.Price</span>
+
+										</div> <!-- price-wrap.// -->
+									</div>
+									<a href="#" class="btn btn-block btn-primary">Sepete Ekle</a>
+								</figcaption>
+							</figure>
+						</div> <!-- col.// -->
+					}
+				}
+
+				else
+				{
+					<p>No hotels found in the selected category.</p>
+				}
+
+	
+</div>
+
+
+	</main>
+	</div>
+</div>
+
+
